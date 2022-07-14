@@ -34,6 +34,33 @@ body, html {
 }
 
 
+.player-text {
+  text-align: left;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: 'Games', sans-serif;
+
+  
+}
+
+.computer-text {
+  text-align: right;
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  font-family: 'Games', sans-serif;
+
+  
+}
+
+
 #rock{
     position: absolute;
     bottom: 80px;
